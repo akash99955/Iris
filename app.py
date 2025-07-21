@@ -30,6 +30,6 @@ if st.button('Predict type of Iris'):
 
     #display image
     image_path = f"images/{predicted_class.lower()}.png"
-    st.image(image_path, caption = predicted_class.title(), use_column_width = True)
+    st.image(image_path, caption = predicted_class.title(), use_container_width = True)
 
 
