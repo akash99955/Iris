@@ -29,7 +29,7 @@ if st.button('Predict type of Iris'):
     st.success(f"predicted: {predicted_class.title()}")
 
     #display image
-    image_path = f"image/{predicted_class.lower()}.png"
+    image_path = f"image/{predicted_class.lower()}.jpg"
     st.image(image_path, caption = predicted_class.title(), use_container_width = True)
 
 
